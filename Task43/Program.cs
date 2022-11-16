@@ -25,7 +25,7 @@ else Console.Write("Прямые пересекаются в точке: ");
 //метод поиска Х.
 double SearchX(double xb1, double xb2, double xk1, double xk2)
 {
-    double x = (b2 - b1) / (k1 - k2);
+    double x = (xb2 - xb1) / (xk1 - xk2);
     return x;
 }
 //метод поиска У.
